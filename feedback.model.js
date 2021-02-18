@@ -21,21 +21,27 @@ let Feedback = new Schema({
         type:Number
 
     },
+    feedback_date:{
+        type:Date
+
+
+    },
 
     feedback_priority:{
         type:String
 
     },
 
-    feedback_typeid:{
+    /*feedback_typeid:{
         type:String
 
-    },
+    },*/
 
     feedback_comment:{
         type:String
 
     },
+    
 
     feedback_completed:{
         type:Boolean

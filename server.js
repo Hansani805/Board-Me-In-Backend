@@ -63,8 +63,8 @@ feedbackRoutes.route('/update/:id').post(function(req,res){
             feedback.feedback_guestname=req.body.feedback_guestname;
             feedback.feedback_emailaddress=req.body.feedback_emailaddress;
             feedback.feedback_telephonenumber=req.body.feedback_telephonenumber;
+            feedback.feedback_date=req.body.feedback_date;
             feedback.feedback_priority=req.body.feedback_priority;
-            feedback.feedback_typeid=req.body.feedback_typeid;
             feedback.feedback_comment=req.body.feedback_comment;
             feedback.feedback_completed=req.body.feedback_completed;
 
